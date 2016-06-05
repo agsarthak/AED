@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="111" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="lastNameLbl" linkSize="4" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="middleNameLbl" linkSize="4" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="dobLbl" linkSize="4" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="addressLbl" linkSize="4" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="firstNamelbl" linkSize="4" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="townLbl" linkSize="4" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="zipLbl" linkSize="4" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="occupationLbl" linkSize="4" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="emailLbl" linkSize="4" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="areaCodeLbl" linkSize="4" alignment="2" max="32767" attributes="0"/>
+                          <Component id="phoneNumLbl" linkSize="4" alignment="2" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="131" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="firstNameTextField" max="32767" attributes="0"/>
+                          <Component id="areaCodeTextField" pref="112" max="32767" attributes="0"/>
+                          <Component id="emailTextField" pref="112" max="32767" attributes="0"/>
+                          <Component id="townTextField" pref="112" max="32767" attributes="0"/>
+                          <Component id="occupationTextField" pref="112" max="32767" attributes="0"/>
+                          <Component id="zipTextField" pref="112" max="32767" attributes="0"/>
+                          <Component id="addressTextField" pref="112" max="32767" attributes="0"/>
+                          <Component id="dobTextField" pref="112" max="32767" attributes="0"/>
+                          <Component id="lastNameTextField" alignment="0" max="32767" attributes="0"/>
+                          <Component id="middleNameTextField" alignment="0" max="32767" attributes="0"/>
+                          <Component id="phoneNumTextField" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="241" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="createBtn" min="-2" pref="124" max="-2" attributes="0"/>
+                          <Component id="bannerLbl" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="196" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="bannerLbl" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="firstNamelbl" linkSize="3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="firstNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="lastNameLbl" linkSize="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lastNameTextField" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="middleNameLbl" linkSize="3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="middleNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="dobLbl" linkSize="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="dobTextField" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="addressLbl" linkSize="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="addressTextField" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="zipLbl" min="-2" max="-2" attributes="0"/>
+                  <Component id="zipTextField" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="occupationLbl" alignment="3" max="32767" attributes="0"/>
+                  <Component id="occupationTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="townLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="townTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="emailLbl" alignment="3" max="32767" attributes="0"/>
+                  <Component id="emailTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="areaCodeLbl" alignment="3" pref="27" max="32767" attributes="0"/>
+                  <Component id="areaCodeTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="phoneNumLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="phoneNumTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Component id="createBtn" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="572" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="bannerLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Person&apos;s Profile"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="firstNamelbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="First name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lastNameLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Last Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="middleNameLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Middle Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dobLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Date of Birth(YYYY/MM/DD)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="addressLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Street Address"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="townLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Town"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="zipLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Zip Code"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="occupationLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Occupation"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="emailLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Email Address"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="areaCodeLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Area code of phone number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="phoneNumLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Phone Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="firstNameTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="occupationTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="zipTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="addressTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dobTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="areaCodeTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="emailTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="townTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="lastNameTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="lastNameTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="middleNameTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="phoneNumTextField">
+    </Component>
+    <Component class="javax.swing.JButton" name="createBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Create"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="createBtnActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
